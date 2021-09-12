@@ -7,16 +7,20 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <BootNav />
-      <Switch>
-        <Route exact path="/" component={Introduction} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-      </Switch>
+      <Introduction id="home" />
+      <Projects id="projects" />
+      <About id="about" />
+      <Contact id="contact" />
+      {/* <Switch>
+        <Route exact path="#home" component={Introduction} />
+        <Route exact path="#projects" component={Projects} />
+        <Route exact path="#about" component={About} />
+        <Route exact path="#contact" component={Contact} />
+      </Switch> */}
     </div>
   )
 }
