@@ -2,8 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="page" id="home">
-      <h1>Contact</h1>
+    <div className="page contact" id="contact">
+      <div className="contact-text">
+        <h2>Contact</h2>
+      </div>
     </div>
   )
 }

@@ -11,10 +11,10 @@ function App(props) {
   return (
     <div className="App">
       <BootNav />
-      <Introduction id="home" />
-      <Projects id="projects" />
-      <About id="about" />
-      <Contact id="contact" />
+      <Introduction />
+      <Projects />
+      <About />
+      <Contact />
       {/* <Switch>
         <Route exact path="#home" component={Introduction} />
         <Route exact path="#projects" component={Projects} />
