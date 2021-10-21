@@ -15,6 +15,7 @@
   position: fixed;
   z-index: 10;
   width: 100vw;
+  border-bottom: 1px outset #212529;
 }
 .navbar-dark .navbar-nav .nav-link {
   margin: 0 1.5vw;
