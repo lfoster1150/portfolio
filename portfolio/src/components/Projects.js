@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import data from '../data/data'
+import { Container } from 'react-bootstrap'
 
 const Projects = () => {
   const handleClickedProject = () => {
@@ -9,10 +10,9 @@ const Projects = () => {
   }
 
   return (
-    <div className="page projects" id="projects">
-      <div className="introduction-text">
-        <h2>Projects</h2>
-        <i class="devicon-html5-plain-wordmark"></i>
+    <div className="projects" id="projects">
+      <h2>Projects</h2>
+      <Container className="projects-container">
         {data.map((project, index) => (
           <ProjectCard
             onClick={handleClickedProject}
@@ -20,7 +20,7 @@ const Projects = () => {
             project={project}
           />
         ))}
-      </div>
+      </Container>
     </div>
   )
 }

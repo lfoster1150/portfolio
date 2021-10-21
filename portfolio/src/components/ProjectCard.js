@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
-import { Card, Row } from 'react-bootstrap'
+import { Card, Row, Image } from 'react-bootstrap'
 import ProjectModal from './ProjectModal'
 
 const ProjectCard = (props) => {
   const [showOverlay, setShowOverlay] = useState(false)
   const [modalShow, setModalShow] = useState(false)
-  const [comments, setComments] = useState([])
   const { project, onClick } = props
 
   const showModal = () => {
@@ -19,12 +18,15 @@ const ProjectCard = (props) => {
   return (
     <div>
       <Card
+        fluid
         className="project-card"
-        onClick={onClick}
+        onClick={showModal}
         onMouseEnter={() => setShowOverlay(true)}
         onMouseLeave={() => setShowOverlay(false)}
       >
         <Card.Img
+          variant="top"
+          fluid
           src={project.image}
           alt={`${project.title} image`}
           onClick={onClick}
@@ -36,14 +38,13 @@ const ProjectCard = (props) => {
           </Card.ImgOverlay>
         ) : undefined}
       </Card>
-      {/* <ProjectModal
-        img={image}
-        description={description}
+      <ProjectModal
+        project={project}
         show={modalShow}
         onHide={hideModal}
         showModal={showModal}
-        getUserPhotos={props.getUserPhotos}
-      /> */}
+        dialogClassName="modal-90w"
+      />
     </div>
   )
 }
