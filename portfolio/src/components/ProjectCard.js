@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Card, Row, Image } from 'react-bootstrap'
 import ProjectModal from './ProjectModal'
+import TechIcons from './TechIcons'
 
 const ProjectCard = (props) => {
   const [showOverlay, setShowOverlay] = useState(false)
@@ -34,6 +35,7 @@ const ProjectCard = (props) => {
         {showOverlay ? (
           <Card.ImgOverlay>
             <Card.Title>{project.title}</Card.Title>
+            <TechIcons icons={project.icons} />
             <Card.Text>{project.description}</Card.Text>
           </Card.ImgOverlay>
         ) : undefined}

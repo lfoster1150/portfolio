@@ -6,7 +6,7 @@ const BootNav = () => {
     console.log(key)
   }
   return (
-    <Navbar bg="dark" variant="dark" className="nav-bar">
+    <Navbar variant="dark" className="nav-bar">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -16,24 +16,16 @@ const BootNav = () => {
             variant="pills"
             defaultActiveKey="#/"
           >
-            <Nav.Link className="home" href={`#home`} eventKey={`home`}>
+            <Nav.Link href={`#home`} eventKey={`home`}>
               HOME
             </Nav.Link>
-            <Nav.Link
-              className="projects"
-              href={`#projects`}
-              eventKey={`projects`}
-            >
+            <Nav.Link href={`#projects`} eventKey={`projects`}>
               PROJECTS
             </Nav.Link>
-            <Nav.Link className="about" href={`#about`} eventKey={`about`}>
+            <Nav.Link href={`#about`} eventKey={`about`}>
               ABOUT
             </Nav.Link>
-            <Nav.Link
-              className="contact"
-              href={`#contact`}
-              eventKey={`contact`}
-            >
+            <Nav.Link href={`#contact`} eventKey={`contact`}>
               CONTACT
             </Nav.Link>
           </Nav>

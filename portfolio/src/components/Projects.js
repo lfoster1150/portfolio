@@ -10,7 +10,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="projects" id="projects">
+    <div className="projects page" id="projects">
       <h2>Projects</h2>
       <Container className="projects-container">
         {data.map((project, index) => (

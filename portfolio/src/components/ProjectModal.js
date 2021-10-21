@@ -4,7 +4,7 @@ import TechIcons from './TechIcons'
 
 const ProjectModal = (props) => {
   return (
-    <Modal {...props}>
+    <Modal {...props} centered>
       <Modal.Header closeButton>
         <p>{props.project.title}</p>
         <TechIcons icons={props.project.icons} />

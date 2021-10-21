@@ -1,20 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /* TOP */
 .App {
   text-align: center;
-  height: 100vh;
   background-color: #2f729c;
+  /* background-image: url('https://i.imgur.com/jYEKYSL.jpg'); */
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Ubuntu', sans-serif;
 }
 .page {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  background-color: #2f729c;
 }
 /* NAV BAR */
 .nav-bar {
   position: fixed;
   z-index: 10;
   width: 100vw;
-  border-bottom: 1px outset #212529;
+  background-color: #102736;
+  border-bottom: 0.1px outset #102736;
 }
 .navbar-dark .navbar-nav .nav-link {
   margin: 0 1.5vw;
@@ -25,7 +35,7 @@
   color: #e75151;
 }
 .navbar-dark .navbar-nav .nav-link.active {
-  background-color: #212529;
+  background-color: #102736;
   color: #e75151;
   border-bottom: 5px solid #e75151;
   border-radius: 5px;
@@ -44,7 +54,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2f729c;
+  padding-top: 15vh;
 }
 .projects-text {
   margin-top: 15vh;
@@ -85,12 +95,24 @@
 .card-img-overlay {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
-  background-color: rgba(33, 37, 41, 0.9);
+  background-color: rgba(16, 39, 54, 0.9);
   color: #8bc4e8;
-  font-size: 18px;
+  font-size: 3vw;
+}
+.card-img-overlay > .card-title {
+  font-size: 6vw;
+}
+
+@media screen and (min-width: 600px) {
+  .card-img-overlay {
+    font-size: 1.3rem;
+  }
+  .card-img-overlay > .card-title {
+    font-size: 3.2rem;
+  }
 }
 
 /* PROJECT MODAL */
@@ -98,7 +120,7 @@
   max-width: 90% !important;
 }
 .modal-content {
-  background-color: rgba(33, 37, 41, 0.9);
+  background-color: rgba(16, 39, 54, 0.97);
   border-color: #1f4c69;
   color: #8bc4e8;
 }
@@ -113,11 +135,13 @@
   min-width: 8em;
   display: flex;
   justify-content: center;
-  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vw;
+  font-weight: 700;
   margin: auto 0;
 }
 .modal-footer > p {
-  font-size: 1.2em;
+  font-size: 2.5vw;
 }
 .btn-close:focus {
   outline: 0;
@@ -127,11 +151,9 @@
 .icon-container {
   display: flex;
   justify-content: space-evenly;
-  font-size: 0.5em;
+  font-size: 6vw;
 }
 /* DEVICONS */
-.devicon-html5-plain-wordmark,
-.devicon-javascript-plain,
-.devicon-css3-plain-wordmark {
-  font-size: 10em;
-}
+/* .icon-container > i {
+  font-size: 7em;
+} */
