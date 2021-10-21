@@ -43,7 +43,6 @@ const ProjectCard = (props) => {
         show={modalShow}
         onHide={hideModal}
         showModal={showModal}
-        dialogClassName="modal-90w"
       />
     </div>
   )
