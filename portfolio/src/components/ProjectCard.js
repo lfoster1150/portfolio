@@ -35,7 +35,7 @@ const ProjectCard = (props) => {
         {showOverlay ? (
           <Card.ImgOverlay>
             <Card.Title>{project.title}</Card.Title>
-            <TechIcons icons={project.icons} />
+            <TechIcons className="overlay-icons" icons={project.icons} />
             <Card.Text>{project.description}</Card.Text>
           </Card.ImgOverlay>
         ) : undefined}

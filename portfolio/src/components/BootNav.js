@@ -7,7 +7,7 @@ const BootNav = () => {
   }
   return (
     <Navbar variant="dark" className="nav-bar">
-      <Container>
+      <Container className="nav-container">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
@@ -30,6 +30,23 @@ const BootNav = () => {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <a
+          className="nav-contact"
+          href="https://github.com/lfoster1150"
+          target="_blank"
+        >
+          <i class="devicon-github-original"></i>
+        </a>
+        <a
+          className="nav-contact"
+          href="https://www.linkedin.com/in/luke-foster11/"
+          target="_blank"
+        >
+          <i class="devicon-linkedin-plain"></i>
+        </a>
+        <a className="nav-contact" href="mailto:lfoster1150@gmail.com">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
       </Container>
     </Navbar>
   )
