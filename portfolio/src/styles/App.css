@@ -66,7 +66,14 @@
   align-items: center;
 }
 .introduction-text {
-  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30vh;
+  width: 80vw;
+  max-width: 750px;
+}
+.introduction-text > p {
+  font-size: 1.2rem;
 }
 /* PROJECTS */
 .projects {
@@ -106,7 +113,7 @@
 .project-card {
   max-width: 30em;
   margin: 10px;
-  border: 3px solid #1f4c69;
+  border: 1px outset #1f4c69;
 }
 .project-card:hover {
   cursor: pointer;
@@ -119,10 +126,10 @@
   padding: 20px;
   background-color: rgba(16, 39, 54, 0.9);
   color: #8bc4e8;
-  font-size: 3vw;
+  font-size: 1rem;
 }
 .card-img-overlay > .card-title {
-  font-size: 6vw;
+  font-size: 2rem;
 }
 
 /* PROJECT MODAL */
@@ -163,10 +170,44 @@
   justify-content: space-evenly;
   font-size: 6vw;
 }
-/* DEVICONS */
-/* .icon-container > i {
-  font-size: 7em;
-} */
+.resume {
+  padding: 0.5em;
+  color: #102736;
+  display: flex;
+  align-items: center;
+  font-size: 8vw;
+  text-decoration: none;
+}
+.resume:hover {
+  color: #e75151;
+}
+.resume > p {
+  margin: 0 0 0 0.5em;
+}
+.modal-links {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+.modal-links > a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: #8bc4e8;
+}
+.modal-links > a:hover {
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: #e75151;
+}
+.modal-links > a > i {
+  margin: 0 1em;
+}
+.btn-close {
+  color: #8bc4e8;
+}
+.btn-close:hover {
+  color: #8bc4e8;
+}
 
 /* MAX-WIDTH */
 @media screen and (max-width: 600px) {
@@ -191,6 +232,7 @@
     font-size: 1.5em;
   }
 }
+
 /* MAX-WIDTH */
 @media screen and (max-width: 300px) {
   .nav-contact {
