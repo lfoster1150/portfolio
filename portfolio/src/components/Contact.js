@@ -1,11 +1,10 @@
 import React from 'react'
+import PageTitle from './PageTitle'
 
 const Contact = () => {
   return (
     <div className="page contact" id="contact">
-      <div className="contact-text">
-        <h2>Contact</h2>
-      </div>
+      <PageTitle title="CONTACT ME" />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import PageTitle from './PageTitle'
 import data from '../data/data'
 import { Container } from 'react-bootstrap'
 
@@ -11,7 +12,7 @@ const Projects = () => {
 
   return (
     <div className="projects page" id="projects">
-      <h2>Projects</h2>
+      <PageTitle title="PROJECTS" />
       <Container className="projects-container">
         {data.map((project, index) => (
           <ProjectCard

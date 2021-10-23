@@ -80,7 +80,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 15vh;
 }
 .projects-text {
   margin-top: 15vh;
@@ -171,18 +170,27 @@
   font-size: 6vw;
 }
 .resume {
-  padding: 0.5em;
-  color: #102736;
-  display: flex;
-  align-items: center;
-  font-size: 8vw;
+  padding: 0;
   text-decoration: none;
+  border: #102736 solid 2px;
+  color: #102736;
+  border-radius: 10px;
+  padding: 0.5em 0.5em;
+  margin: 5vh auto;
+  background-color: #e75151;
 }
 .resume:hover {
-  color: #e75151;
+  background-color: #102736;
+  color: #8bc4e8;
 }
-.resume > p {
-  margin: 0 0 0 0.5em;
+.resume-container {
+  display: flex;
+  align-items: center;
+}
+.resume-container > p {
+  font-weight: bold;
+  font-size: 2vw;
+  margin: 0 0.5em 0 0.5em;
 }
 .modal-links {
   display: flex;
@@ -207,6 +215,40 @@
 }
 .btn-close:hover {
   color: #8bc4e8;
+}
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: #8bc4e8 outset 2px;
+  border-bottom: #102736 outset 2px;
+  padding: 0.5em 0;
+  margin-top: 15vh;
+  width: 100vw;
+  background-color: #8bc4e8;
+}
+.page-title > h2 {
+  font-size: 5vw;
+  font-weight: 700;
+  margin: 0;
+}
+/* SKILLS */
+.skills-row {
+  text-align: start;
+}
+.skills-row > p {
+  font-size: 3vw;
+  padding: 0;
+  margin: 0;
+}
+.skills-container {
+  display: flex;
+  padding: 0;
+}
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* MAX-WIDTH */
