@@ -11,16 +11,19 @@ const Projects = () => {
   }
 
   return (
-    <div className="projects page" id="projects">
-      <Container className="projects-container">
-        {data.map((project, index) => (
-          <ProjectCard
-            onClick={handleClickedProject}
-            key={index}
-            project={project}
-          />
-        ))}
-      </Container>
+    <div>
+      <div className="divider"></div>
+      <div className="projects page" id="projects">
+        <Container className="projects-container">
+          {data.map((project, index) => (
+            <ProjectCard
+              onClick={handleClickedProject}
+              key={index}
+              project={project}
+            />
+          ))}
+        </Container>
+      </div>
     </div>
   )
 }
