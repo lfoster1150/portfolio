@@ -228,15 +228,15 @@
   padding: 0;
   text-decoration: none;
   border: #102736 solid 2px;
-  color: #102736;
   border-radius: 10px;
   padding: 0.5em 0.5em;
   margin: 5vh auto;
-  background-color: #e75151;
-}
-.resume:hover {
   background-color: #102736;
   color: #8bc4e8;
+}
+.resume:hover {
+  color: #102736;
+  background-color: #e75151;
 }
 .resume-container {
   display: flex;
