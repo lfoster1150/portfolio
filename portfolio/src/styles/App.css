@@ -46,7 +46,7 @@
 /* TOP */
 .App {
   text-align: center;
-  background-color: #5fa0f5;
+  background-color: #7db5ff;
   width: 100vw;
   /* -webkit-background-size: cover; */
   /* -moz-background-size: cover; */
@@ -85,7 +85,7 @@
   font-size: 2vw;
   margin: 0 4vw;
   font-weight: bold;
-  color: #5fa0f5;
+  color: #7db5ff;
   padding-bottom: 8px;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -239,7 +239,7 @@
   align-items: center;
   padding: 20px;
   background-color: rgba(16, 39, 54, 0.9);
-  color: #5fa0f5;
+  color: #7db5ff;
   font-size: 1rem;
 }
 .card-img-overlay > .card-title {
@@ -253,7 +253,7 @@
 .modal-content {
   background-color: rgba(16, 39, 54, 0.97);
   border-color: #1f4c69;
-  color: #5fa0f5;
+  color: #7db5ff;
 }
 .modal-header,
 .modal-footer {
@@ -292,7 +292,7 @@
   padding: 0.5em 0.5em;
   margin: 5vh auto;
   background-color: #14181d;
-  color: #5fa0f5;
+  color: #7db5ff;
 }
 .resume:hover {
   color: #14181d;
@@ -315,7 +315,7 @@
 .modal-links > a {
   text-decoration: none;
   font-size: 1.5vw;
-  color: #5fa0f5;
+  color: #7db5ff;
 }
 .modal-links > a:hover {
   text-decoration: none;
@@ -326,10 +326,10 @@
   margin: 0 1em 0 3vw;
 }
 .btn-close {
-  color: #5fa0f5;
+  color: #7db5ff;
 }
 .btn-close:hover {
-  color: #5fa0f5;
+  color: #7db5ff;
 }
 .page-title {
   display: flex;
@@ -339,7 +339,7 @@
   padding: 0.5em 0;
   margin-top: 15vh;
   width: 100vw;
-  color: #5fa0f5;
+  color: #7db5ff;
   background-color: #1f4c69;
 }
 .page-title > h2 {
