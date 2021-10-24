@@ -12,7 +12,6 @@ const Projects = () => {
 
   return (
     <div className="projects page" id="projects">
-      <PageTitle title="PROJECTS" />
       <Container className="projects-container">
         {data.map((project, index) => (
           <ProjectCard

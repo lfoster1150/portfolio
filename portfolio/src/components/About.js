@@ -7,16 +7,24 @@ import skillsData from '../data/skillsData'
 const About = () => {
   return (
     <div className="page about" id="about">
-      <PageTitle title="ABOUT" />
+      <div className="introduction-text">
+        <p>
+          During the pandemic I started teaching myself C++, and I discovered a
+          hidden talent and love for coding. I’m looking for new opportunities
+          to grow my knowledge and experience in Software Engineering, and to
+          create highly efficient applications, without sacrificing user
+          experience.
+        </p>
+      </div>
       <a className="resume" target="#" href="">
         <Container className="resume-container">
           <i class="fa fa-file"></i>
-          <p>Resume</p>
+          <p>My Resume</p>
           <i class="fa fa-external-link"></i>
         </Container>
       </a>
       <Container>
-        <h2>Skills</h2>
+        <h2 className="skills-header">Skills</h2>
         <Row className="skills-row">
           <p>Front-End</p>
           <Container className="skills-container">

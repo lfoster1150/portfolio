@@ -4,7 +4,7 @@ import PageTitle from './PageTitle'
 const Contact = () => {
   return (
     <div className="page contact" id="contact">
-      <PageTitle title="CONTACT ME" />
+      <PageTitle title="CONTACT INFO" />
     </div>
   )
 }
