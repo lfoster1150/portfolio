@@ -1,5 +1,4 @@
 import React from 'react'
-import PageTitle from './PageTitle'
 import { Container } from 'react-bootstrap'
 
 const Contact = () => {
