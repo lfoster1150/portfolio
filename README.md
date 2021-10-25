@@ -1,6 +1,6 @@
-# Excelsior
+# Portfolio
 
-## Date: 09/03/2021
+## Date: 10/25/2021
 
 ### By: Luke Foster
 
@@ -20,17 +20,9 @@ The project is deployed on Vercel and can be viewed [here](https://www.lukefoste
 - Bootstrap
 - Vercel
 
-### **_Future Updates_**
-
-- [x] Integrate Marvel API - Search
-- [ ] Add UPDATE method
-- [ ] Integrate Marvel API - Characters Page
-- [ ] Integrate Marvel API - Creators Page
-- [ ] Integrate Marvel API - Series Page
-
 ### **_Credits_**
 
-##### HTML: [Same Page Links](https://www.computerhope.com/issues/ch000049.htm) | []()
+##### HTML: [Same Page Links](https://www.computerhope.com/issues/ch000049.htm)
 
 ##### Icons: [Devicon](https://devicon.dev/) | [FontAwesome](https://www.w3resource.com/icon/font-awesome/web-application-icons/external-link.php) | [SVG REPO](https://www.svgrepo.com/)
 
