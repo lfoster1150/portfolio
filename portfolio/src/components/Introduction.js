@@ -13,8 +13,8 @@ const Introduction = () => {
           <br></br>
           <p>
             I’m a Software Engineer with a background in Manufacturing and
-            Electrical Engineering, and an obsession with learning new skills
-            and technologies.
+            Electrical Engineering and an obsession with learning new skills and
+            technologies.
           </p>
         </div>
         <Container className="intro-links">
