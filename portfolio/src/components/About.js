@@ -18,7 +18,11 @@ const About = () => {
             sacrificing user experience.
           </p>
         </div>
-        <a className="resume" target="#" href="">
+        <a
+          className="resume"
+          target="#"
+          href="https://drive.google.com/file/d/1DGPqEeeqYnnCOaaZ_Q8UxfTXBep6RKei/view?usp=sharing"
+        >
           <Container className="resume-container">
             <i class="fa fa-file"></i>
             <p>My Resume</p>

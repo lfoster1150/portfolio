@@ -232,6 +232,7 @@
 }
 /* PROJECT CARD AND OVERLAY */
 .project-card {
+  width: 80vw;
   max-width: 40em;
   margin: 10px;
   border: 1px outset #1f4c69;
@@ -380,7 +381,7 @@
   display: flex;
   flex-wrap: wrap;
   text-align: start;
-  justify-content: space-evenly;
+
   border: #14181d outset 2px;
   background: url('./tiles.png') repeat 0 0;
   padding: 0 0;
@@ -395,6 +396,7 @@
   width: 80vw;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 0;
 }
 .skills-row > p {

@@ -35,7 +35,11 @@ const Introduction = () => {
           <a className="nav-contact" href="mailto:lfoster1150@gmail.com">
             <i class="fa fa-envelope" aria-hidden="true"></i>
           </a>
-          <a className="intro-resume" target="#" href="">
+          <a
+            className="intro-resume"
+            target="#"
+            href="https://drive.google.com/file/d/1DGPqEeeqYnnCOaaZ_Q8UxfTXBep6RKei/view?usp=sharing"
+          >
             <Container className="intro-resume-container">
               <p>Resume</p>
               <i class="fa fa-file"></i>
