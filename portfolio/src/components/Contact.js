@@ -32,10 +32,6 @@ const Contact = () => {
               <i class="fa fa-envelope" aria-hidden="true"></i>
               lfoster1150@gmail.com
             </a>
-            <label className="number contact-icon">
-              <i class="fa fa-mobile"></i>
-              (512) - 888 - 5885
-            </label>
           </Container>
         </Container>
       </div>
