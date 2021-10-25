@@ -1,5 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import { init } from 'emailjs-com'
+import ContactMe from './ContactMe'
+init('user_7SjHsKtKCnWnzgbbZg13V')
 
 const Contact = () => {
   return (
@@ -33,6 +36,7 @@ const Contact = () => {
               lfoster1150@gmail.com
             </a>
           </Container>
+          <ContactMe />
         </Container>
       </div>
       <div className="divider"></div>
