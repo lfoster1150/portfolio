@@ -5,7 +5,7 @@ import TechIcons from './TechIcons'
 const ProjectModal = (props) => {
   return (
     <Modal {...props} centered>
-      <Modal.Header closeButton>
+      <Modal.Header closeButton closeVariant="white">
         <p>{props.project.title}</p>
         <Container className="modal-links">
           <a href={props.project.deployed} target="_blank">
@@ -19,11 +19,13 @@ const ProjectModal = (props) => {
         </Container>
       </Modal.Header>
       <Modal.Body>
-        <Image
-          src={props.project.modalImage}
-          alt={props.project.description}
-          fluid
-        />
+        <a href={props.project.deployed} target="_blank">
+          <Image
+            src={props.project.modalImage}
+            alt={props.project.description}
+            fluid
+          />
+        </a>
       </Modal.Body>
       <Modal.Footer>
         <p>{props.project.fullDescription}</p>

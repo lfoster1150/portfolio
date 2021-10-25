@@ -25,7 +25,7 @@ const About = () => {
             <i class="fa fa-external-link"></i>
           </Container>
         </a>
-        <Container>
+        <Container className="about-container">
           <h2 className="skills-header">Skills</h2>
           <Row className="skills-row">
             <p>Front-End</p>
