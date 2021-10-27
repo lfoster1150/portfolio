@@ -9,7 +9,7 @@ const Contact = () => {
     <div>
       <div className="divider"></div>
       <div className="page contact" id="contact">
-        <Container>
+        <Container className="contact-container">
           <h2 className="skills-header">Contact</h2>
           <Container className="links">
             <a
@@ -36,10 +36,16 @@ const Contact = () => {
               lfoster1150@gmail.com
             </a>
           </Container>
-          <ContactMe />
+          <Container className="thanks">
+            <a className="resume" href="#home">
+              <Container className="resume-container">
+                <p>Back To Top </p>
+              </Container>
+            </a>
+          </Container>
         </Container>
+        <div className="divider"></div>
       </div>
-      <div className="divider"></div>
     </div>
   )
 }

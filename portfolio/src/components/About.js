@@ -12,10 +12,9 @@ const About = () => {
         <div className="introduction-text">
           <p>
             During the pandemic, I started teaching myself C++, and I discovered
-            a hidden talent and love for coding. I’m looking for opportunities
-            to grow my knowledge and experience in Software Engineering and to
-            create highly efficient applications without sacrificing user
-            experience.
+            a hidden talent and love for coding. Software development empowers
+            me to continue my drive for knowledge, because there's always new
+            tech to learn and bugs to squash.
           </p>
         </div>
         <a

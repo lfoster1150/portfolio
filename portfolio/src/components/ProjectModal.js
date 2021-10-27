@@ -18,7 +18,15 @@ const ProjectModal = (props) => {
           </a>
         </Container>
       </Modal.Header>
+
       <Modal.Body>
+        {props.project.fullDescription.map((description, index) => (
+          <p key={index}>{description}</p>
+        ))}
+        <TechIcons icons={props.project.icons} />
+        <p>{props.project.note}</p>
+      </Modal.Body>
+      <Modal.Footer>
         <a href={props.project.deployed} target="_blank">
           <Image
             src={props.project.modalImage}
@@ -26,10 +34,6 @@ const ProjectModal = (props) => {
             fluid
           />
         </a>
-      </Modal.Body>
-      <Modal.Footer>
-        <p>{props.project.fullDescription}</p>
-        <TechIcons icons={props.project.icons} />
       </Modal.Footer>
     </Modal>
   )
