@@ -1,20 +1,20 @@
 const skillsData = {
   frontEnd: [
     {
-      title: 'HTML',
-      icon: 'html'
-    },
-    {
-      title: 'CSS',
-      icon: 'css'
+      title: 'React.js',
+      icon: 'react'
     },
     {
       title: 'JavaScript',
       icon: 'javascript'
     },
     {
-      title: 'React.js',
-      icon: 'react'
+      title: 'TypeScript',
+      icon: 'typescript'
+    },
+    {
+      title: 'CSS',
+      icon: 'css'
     },
     {
       title: 'Vue.js',
@@ -23,13 +23,21 @@ const skillsData = {
     {
       title: 'Bootstrap',
       icon: 'bootstrap'
-    },
-    {
-      title: 'C++',
-      icon: 'c++'
     }
   ],
   backEnd: [
+    {
+      title: 'Ruby',
+      icon: 'ruby'
+    },
+    {
+      title: 'Ruby on Rails',
+      icon: 'rails'
+    },
+    {
+      title: 'PostgreSQL',
+      icon: 'postgresql'
+    },
     {
       title: 'Node.js',
       icon: 'node'
@@ -41,10 +49,6 @@ const skillsData = {
     {
       title: 'MongoDB',
       icon: 'mongodb'
-    },
-    {
-      title: 'PostgreSQL',
-      icon: 'postgresql'
     },
     {
       title: 'Sequelize',
@@ -61,6 +65,10 @@ const skillsData = {
     {
       title: 'SQLAlchemy',
       icon: 'sqlalchemy'
+    },
+    {
+      title: 'C++',
+      icon: 'c++'
     }
   ],
   other: [
@@ -69,7 +77,7 @@ const skillsData = {
       icon: 'git'
     },
     {
-      title: 'AWS S3',
+      title: 'AWS S3, R53',
       icon: 'aws'
     },
     {

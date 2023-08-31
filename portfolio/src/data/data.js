@@ -25,14 +25,14 @@ const data = [
       '- A full-stack (MERN) web app to track all your must-read comics. This project was originally created in four days as part of the General Assembly SEI program.',
       '- Front-end created using React.js, with bootstrap for UI commptonents',
       '- Marvel comics API implemented to provide data and to make it easier for users to add comics.',
-      '- Node.js and Express.js were used implement the back-end, with Mongoose.js used to interact with a MongoDB database.',
+      '- Node.js and Express.js were used to implement the back-end, with Mongoose.js used to interact with a MongoDB database.',
       '- The front-end was deployed on Heroku, while the back-end database was deployed using Atlas.'
     ],
     note: `As a huge fan of comics, "Excelsior!" was especially fun for me. It allowed me to delve deep into React, so I was able to strengthen my understanding of many React and general front-end concepts such as props and hooks. It also marks my first full-stack project, so it was the first time I was able to create a REST API completely from scratch. In the future I plan to add some sort of authentication as well as more functionality for the amazing Marvel API.`,
     modalImage: 'https://i.imgur.com/UvqIIwi.png?1',
     icons: ['mongodb', 'express', 'react', 'node'],
     github: 'https://github.com/lfoster1150/excelsior',
-    deployed: 'https://safe-brushlands-20870.herokuapp.com/'
+    deployed: ''
   },
   {
     title: 'PhotoPocket',
@@ -42,8 +42,7 @@ const data = [
     fullDescription: [
       '- A full-stack (PERN) web app project created in four days in collaboration with two other developers.',
       '- Front-end created using React.js, with bootstrap for UI commptonents',
-      '- Node.js and Express.js were used implement the back-end, with Sequelize used to interact with a PostgreSQL database.',
-      '- ',
+      '- Node.js and Express.js were used to implement the back-end, with Sequelize used to interact with a PostgreSQL database.',
       '- AWS S3 was implemented to allow users to upload their own photos.',
       '- Both the front-end and the back-end database were deployed on Heroku.'
     ],
@@ -51,7 +50,7 @@ const data = [
     modalImage: 'https://i.imgur.com/dwZKXVn.png',
     icons: ['postgresql', 'express', 'react', 'node'],
     github: 'https://github.com/ItalloGama/PhotoPocket',
-    deployed: 'https://arcane-tor-98786.herokuapp.com/'
+    deployed: ''
   },
   {
     title: 'SportsVue',
@@ -64,9 +63,9 @@ const data = [
       '- The back-end was created with Python/Flask, with SQLAlchemy used to interact with a PostgreSQL database.',
       '- Third-party soccer API used to bring in data for leagues, teams, players, and stats.',
       '- Vuex-cache was implemented in Vuex in order to prevent repeated API calls.',
-      '- Vue-chartjs was used to easily and stylish display graphs for team statistics.'
+      '- Vue-chartjs was used to easily and stylishly display graphs for team statistics.'
     ],
-    note: `As a massive sports fan, so "SportsVue" was a passion project for me. I had just learned Python in the previous week, so implementing a Flask back-end in around a day was a huge accomplishment. During the design process I also fell completely in love with Vue.js. Its modular structure helps keep the code clean. In the future I plan to add more graphs and player detail pages with player specific stats.`,
+    note: `I'm a massive sports fan, so "SportsVue" was a passion project for me. I had just learned Python, so implementing a Flask back-end in approximately a day was a huge accomplishment. During the design process I also fell completely in love with Vue.js. Its modular structure helps keep the code clean. In the future I plan to add more graphs and player detail pages with player specific stats.`,
     modalImage: 'https://i.imgur.com/yaAdLF8.png',
     icons: ['postgresql', 'flask', 'sqlalchemy', 'vue'],
     github: 'https://github.com/lfoster1150/sports_vue',

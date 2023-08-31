@@ -8,10 +8,12 @@ const ProjectModal = (props) => {
       <Modal.Header closeButton closeVariant="white">
         <p>{props.project.title}</p>
         <Container className="modal-links">
-          <a href={props.project.deployed} target="_blank">
-            <i class="fa fa-external-link"></i>
-            Deployed Website
-          </a>
+          { props.project.deployed.length > 0 && (
+              <a href={props.project.deployed} target="_blank">
+                <i class="fa fa-external-link"></i>
+                Deployed Website
+              </a>
+          )}
           <a href={props.project.github} target="_blank">
             <i class="devicon-github-original"></i>
             GitHub Repo

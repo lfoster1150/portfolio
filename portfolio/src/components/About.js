@@ -20,7 +20,7 @@ const About = () => {
         <a
           className="resume"
           target="#"
-          href="https://drive.google.com/file/d/1DGPqEeeqYnnCOaaZ_Q8UxfTXBep6RKei/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qJUOoC1zLLswSj2Ba2MWikhvXrE1Peoo/view?usp=sharing"
         >
           <Container className="resume-container">
             <i class="fa fa-file"></i>

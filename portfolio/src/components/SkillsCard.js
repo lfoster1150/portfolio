@@ -45,6 +45,12 @@ const SkillsCard = (props) => {
         return <i class="devicon-ubuntu-plain"></i>
       case 'vscode':
         return <i class="devicon-vscode-plain"></i>
+      case 'ruby':
+        return <i class="devicon-ruby-plain"></i>
+      case 'rails':
+        return <i class="devicon-rails-plain"></i>
+      case 'typescript':
+        return <i class="devicon-typescript-plain"></i>
       default:
         return undefined
     }
