@@ -4,30 +4,30 @@ import { Container } from 'react-bootstrap'
 const TechIcons = (props) => {
   const { icons } = props
 
-  const getIcon = (icon) => {
+  const getIcon = (icon, key) => {
     switch (icon) {
       case 'html':
-        return <i class="devicon-html5-plain-wordmark"></i>
+        return <i className="devicon-html5-plain-wordmark" key={key}></i>
       case 'css':
-        return <i class="devicon-css3-plain-wordmark"></i>
+        return <i className="devicon-css3-plain-wordmark" key={key}></i>
       case 'javascript':
-        return <i class="devicon-javascript-plain"></i>
+        return <i className="devicon-javascript-plain" key={key}></i>
       case 'mongodb':
-        return <i class="devicon-mongodb-plain-wordmark"></i>
+        return <i className="devicon-mongodb-plain-wordmark" key={key}></i>
       case 'express':
-        return <i class="devicon-express-original-wordmark"></i>
+        return <i className="devicon-express-original-wordmark" key={key}></i>
       case 'node':
-        return <i class="devicon-nodejs-plain-wordmark"></i>
+        return <i className="devicon-nodejs-plain-wordmark" key={key}></i>
       case 'react':
-        return <i class="devicon-react-original-wordmark"></i>
+        return <i className="devicon-react-original-wordmark" key={key}></i>
       case 'postgresql':
-        return <i class="devicon-postgresql-plain-wordmark"></i>
+        return <i className="devicon-postgresql-plain-wordmark" key={key}></i>
       case 'vue':
-        return <i class="devicon-vuejs-plain-wordmark"></i>
+        return <i className="devicon-vuejs-plain-wordmark" key={key}></i>
       case 'flask':
-        return <i class="devicon-flask-original-wordmark"></i>
+        return <i className="devicon-flask-original-wordmark" key={key}></i>
       case 'sqlalchemy':
-        return <i class="devicon-sqlalchemy-original-wordmark"></i>
+        return <i className="devicon-sqlalchemy-original-wordmark" key={key}></i>
       default:
         return undefined
     }
@@ -35,7 +35,7 @@ const TechIcons = (props) => {
 
   return (
     <Container className="icon-container">
-      {icons.map((icon, index) => getIcon(icon))}
+      {icons.map((icon, index) => getIcon(icon, index))}
     </Container>
   )
 }

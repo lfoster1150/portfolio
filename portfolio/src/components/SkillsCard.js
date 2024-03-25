@@ -4,53 +4,53 @@ const SkillsCard = (props) => {
   const getIcon = (icon) => {
     switch (icon) {
       case 'html':
-        return <i class="devicon-html5-plain"></i>
+        return <i className="devicon-html5-plain"></i>
       case 'css':
-        return <i class="devicon-css3-plain"></i>
+        return <i className="devicon-css3-plain"></i>
       case 'javascript':
-        return <i class="devicon-javascript-plain"></i>
+        return <i className="devicon-javascript-plain"></i>
       case 'mongodb':
-        return <i class="devicon-mongodb-plain"></i>
+        return <i className="devicon-mongodb-plain"></i>
       case 'express':
-        return <i class="devicon-express-original"></i>
+        return <i className="devicon-express-original"></i>
       case 'node':
-        return <i class="devicon-nodejs-plain"></i>
+        return <i className="devicon-nodejs-plain"></i>
       case 'react':
-        return <i class="devicon-react-original"></i>
+        return <i className="devicon-react-original"></i>
       case 'postgresql':
-        return <i class="devicon-postgresql-plain"></i>
+        return <i className="devicon-postgresql-plain"></i>
       case 'vue':
-        return <i class="devicon-vuejs-plain"></i>
+        return <i className="devicon-vuejs-plain"></i>
       case 'flask':
-        return <i class="devicon-flask-original"></i>
+        return <i className="devicon-flask-original"></i>
       case 'sqlalchemy':
-        return <i class="devicon-sqlalchemy-plain"></i>
+        return <i className="devicon-sqlalchemy-plain"></i>
       case 'bootstrap':
-        return <i class="devicon-bootstrap-plain"></i>
+        return <i className="devicon-bootstrap-plain"></i>
       case 'c++':
-        return <i class="devicon-cplusplus-plain"></i>
+        return <i className="devicon-cplusplus-plain"></i>
       case 'sequelize':
-        return <i class="devicon-sequelize-plain"></i>
+        return <i className="devicon-sequelize-plain"></i>
       case 'python':
-        return <i class="devicon-python-plain"></i>
+        return <i className="devicon-python-plain"></i>
       case 'aws':
-        return <i class="devicon-amazonwebservices-original"></i>
+        return <i className="devicon-amazonwebservices-plain-wordmark"></i>
       case 'git':
-        return <i class="devicon-git-plain"></i>
+        return <i className="devicon-git-plain"></i>
       case 'heroku':
-        return <i class="devicon-heroku-plain"></i>
+        return <i className="devicon-heroku-plain"></i>
       case 'npm':
-        return <i class="devicon-npm-original-wordmark"></i>
+        return <i className="devicon-npm-original-wordmark"></i>
       case 'ubuntu':
-        return <i class="devicon-ubuntu-plain"></i>
+        return <i className="devicon-ubuntu-plain"></i>
       case 'vscode':
-        return <i class="devicon-vscode-plain"></i>
+        return <i className="devicon-vscode-plain"></i>
       case 'ruby':
-        return <i class="devicon-ruby-plain"></i>
+        return <i className="devicon-ruby-plain"></i>
       case 'rails':
-        return <i class="devicon-rails-plain"></i>
+        return <i className="devicon-rails-plain"></i>
       case 'typescript':
-        return <i class="devicon-typescript-plain"></i>
+        return <i className="devicon-typescript-plain"></i>
       default:
         return undefined
     }

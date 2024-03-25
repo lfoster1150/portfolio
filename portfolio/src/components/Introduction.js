@@ -22,18 +22,20 @@ const Introduction = () => {
             className="nav-contact"
             href="https://github.com/lfoster1150"
             target="_blank"
+            rel="noreferrer"
           >
-            <i class="devicon-github-original"></i>
+            <i className="devicon-github-original"></i>
           </a>
           <a
             className="nav-contact"
             href="https://www.linkedin.com/in/luke-foster11/"
             target="_blank"
+            rel="noreferrer"
           >
-            <i class="devicon-linkedin-plain"></i>
+            <i className="devicon-linkedin-plain"></i>
           </a>
           <a className="nav-contact" href="mailto:lfoster1150@gmail.com">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i className="fa fa-envelope" aria-hidden="true"></i>
           </a>
         </Container>
         <a
@@ -43,7 +45,7 @@ const Introduction = () => {
         >
           <Container className="resume-container">
             <p>Resume</p>
-            <i class="fa fa-file"></i>
+            <i className="fa fa-file"></i>
           </Container>
         </a>
       </Container>

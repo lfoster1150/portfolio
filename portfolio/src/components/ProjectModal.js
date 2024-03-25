@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import { Modal, Image, Container, Row } from 'react-bootstrap'
+import React from 'react'
+import { Modal, Image, Container } from 'react-bootstrap'
 import TechIcons from './TechIcons'
 
 const ProjectModal = (props) => {
@@ -9,13 +9,13 @@ const ProjectModal = (props) => {
         <p>{props.project.title}</p>
         <Container className="modal-links">
           { props.project.deployed.length > 0 && (
-              <a href={props.project.deployed} target="_blank">
-                <i class="fa fa-external-link"></i>
+              <a href={props.project.deployed} target="_blank" rel="noreferrer">
+                <i className="fa fa-external-link"></i>
                 Deployed Website
               </a>
           )}
-          <a href={props.project.github} target="_blank">
-            <i class="devicon-github-original"></i>
+          <a href={props.project.github} target="_blank" rel="noreferrer">
+            <i className="devicon-github-original"></i>
             GitHub Repo
           </a>
         </Container>
@@ -29,11 +29,11 @@ const ProjectModal = (props) => {
         <p>{props.project.note}</p>
       </Modal.Body>
       <Modal.Footer>
-        <a href={props.project.deployed} target="_blank">
+        <a href={props.project.deployed} target="_blank" rel="noreferrer">
           <Image
             src={props.project.modalImage}
             alt={props.project.description}
-            fluid
+            fluid="true"
           />
         </a>
       </Modal.Footer>

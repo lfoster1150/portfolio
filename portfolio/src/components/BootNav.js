@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const BootNav = () => {
@@ -19,11 +19,11 @@ const BootNav = () => {
             <Nav.Link href={`#home`} eventKey={`home`}>
               HOME
             </Nav.Link>
-            <Nav.Link href={`#projects`} eventKey={`projects`}>
-              PROJECTS
-            </Nav.Link>
             <Nav.Link href={`#about`} eventKey={`about`}>
               ABOUT
+            </Nav.Link>
+            <Nav.Link href={`#projects`} eventKey={`projects`}>
+              PROJECTS
             </Nav.Link>
             <Nav.Link href={`#contact`} eventKey={`contact`}>
               CONTACT

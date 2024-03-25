@@ -1,5 +1,4 @@
 import React from 'react'
-import PageTitle from './PageTitle'
 import SkillsCard from './SkillsCard'
 import { Container, Row } from 'react-bootstrap'
 import skillsData from '../data/skillsData'
@@ -9,7 +8,7 @@ const About = () => {
     <div>
       <div className="divider"></div>
       <div className="page about" id="about">
-        <div className="introduction-text">
+        <div className="about-text">
           <p>
             During the pandemic, I started teaching myself C++, and I discovered
             a hidden talent and love for coding. Software development empowers
@@ -17,17 +16,6 @@ const About = () => {
             tech to learn and bugs to squash.
           </p>
         </div>
-        <a
-          className="resume"
-          target="#"
-          href="https://drive.google.com/file/d/1fq4keCxp9xbrq0EKnl5RgOVqAONyUpHr/view?usp=drive_link"
-        >
-          <Container className="resume-container">
-            <i class="fa fa-file"></i>
-            <p>My Resume</p>
-            <i class="fa fa-external-link"></i>
-          </Container>
-        </a>
         <Container className="about-container">
           <h2 className="skills-header">Skills</h2>
           <Row className="skills-row">

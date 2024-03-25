@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Card, Row, Image } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 import ProjectModal from './ProjectModal'
 import TechIcons from './TechIcons'
 
@@ -19,7 +19,7 @@ const ProjectCard = (props) => {
   return (
     <div>
       <Card
-        fluid
+        fluid="true"
         className="project-card"
         onClick={showModal}
         onMouseEnter={() => setShowOverlay(false)}
@@ -27,7 +27,7 @@ const ProjectCard = (props) => {
       >
         <Card.Img
           variant="top"
-          fluid
+          fluid="true"
           src={project.image}
           alt={`${project.title} image`}
           onClick={onClick}
@@ -44,7 +44,6 @@ const ProjectCard = (props) => {
         project={project}
         show={modalShow}
         onHide={hideModal}
-        showModal={showModal}
       />
     </div>
   )

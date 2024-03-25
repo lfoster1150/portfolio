@@ -1,8 +1,5 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { init } from 'emailjs-com'
-import ContactMe from './ContactMe'
-init('user_7SjHsKtKCnWnzgbbZg13V')
 
 const Contact = () => {
   return (
@@ -16,28 +13,41 @@ const Contact = () => {
               className="nav-contact contact-icon"
               href="https://github.com/lfoster1150"
               target="_blank"
+              rel="noreferrer"
             >
-              <i class="devicon-github-original"></i>
+              <i className="devicon-github-original"></i>
               GitHub
             </a>
             <a
               className="nav-contact contact-icon"
               href="https://www.linkedin.com/in/luke-foster11/"
               target="_blank"
+              rel="noreferrer"
             >
-              <i class="devicon-linkedin-plain"></i>
+              <i className="devicon-linkedin-plain"></i>
               LinkedIn
             </a>
             <a
               className="nav-contact contact-icon"
               href="mailto:lfoster1150@gmail.com"
             >
-              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i className="fa fa-envelope" aria-hidden="true"></i>
               lfoster1150@gmail.com
             </a>
           </Container>
           <Container className="thanks">
-            <a className="resume" href="#home">
+            <a
+              className="resume contact-resume"
+              target="#"
+              href="https://drive.google.com/file/d/1fq4keCxp9xbrq0EKnl5RgOVqAONyUpHr/view?usp=drive_link"
+            >
+              <Container className="resume-container">
+                <i className="fa fa-file"></i>
+                  <p>Resume</p>
+                <i className="fa fa-external-link"></i>
+              </Container>
+            </a>
+            <a className="resume contact-resume" href="#home">
               <Container className="resume-container">
                 <p>Back To Top </p>
               </Container>
